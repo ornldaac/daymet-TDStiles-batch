@@ -5,7 +5,7 @@ This repo contains methods for automating the download of 2-degree tiles of Daym
 1. [Bash](./Bash/README.md) 
 2. Python 
 
-## Background:
+## Background
 
 The Daymet algorithm manages the large number of input data and large spatial extent of the study area by creating a system of 2-degree x 2-degree tiles which are processed individually through the Daymet software. These tiles are identified by a TileID which is derived within the Daymet algorithm and is consistent throughout the temporal period of the Daymet record. 
 
@@ -13,7 +13,7 @@ A [Thematic Real-time Environmental Data Services (THREDDS)](https://thredds.daa
 
 When downloaded, the daily gridded tile data contain individual netCDF files for each Daymet variable: minimum and maximum temperature, precipitation, incident shortwave radiation, water vapor pressure, snow water equivalent, and day-length. The spatial resolution of the raster data is 1 km, and each file is spatially referenced to the Lamber Conformal Conic projection. Example images of Daymet variables are shown below for two Daymet tiles in the Rocky Mountain West covering the northern border of Idaho and Montana. The Daymet TileIDs for these two tiles are 12273 and 12274. Recall that each netCDF file contains daily data for each Daymet variable. The images show just one day of the 365 days available in each netCDF file. Also note adjacent tiles match seamlessly.
 
-### Daymet Daily Variables; tmin, tmax, srad, vp (July 15,2007), and prcp, and swe (Feburary 9,2007)
+#### Daymet Daily Variables; tmin, tmax, srad, vp (July 15,2007), and prcp, and swe (Feburary 9,2007)
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
