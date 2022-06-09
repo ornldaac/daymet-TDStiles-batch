@@ -17,8 +17,8 @@ When downloaded, the daily gridded tile data contain individual netCDF files for
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|![ ](./graphics/Tiles12273_12274_for_web_Tmin_Thumb.jpg)|![ ](./graphics/Tiles12273_12274_for_web_Tmax_Thumb.jpg)|![ ](./graphics/Tiles12273_12274_for_web_Srad_Thumb.jpg)|
-|![ ](./graphics/Tiles12273_12274_for_web_VP_Pa_Thumb.jpg)|![ ](./graphics/Tiles12273_12274_for_web_Prcp_Thumb.jpg)| ![ ](./graphics/Tiles12273_12274_for_web_Swe_Thumb.jpg)|
+|![Thumbnail for Tmin tiles 12273 & 12274](./graphics/Tiles12273_12274_for_web_Tmin_Thumb.jpg)|![Thumbnail for Tmax tiles 12273 & 12274 ](./graphics/Tiles12273_12274_for_web_Tmax_Thumb.jpg)|![ ](./graphics/Tiles12273_12274_for_web_Srad_Thumb.jpg)|
+|![Thumbnail for VP for tiles 12273 & 12274 ](./graphics/Tiles12273_12274_for_web_VP_Pa_Thumb.jpg)|![Thumbnail for Prcp for tiles 12273 & 12274 ](./graphics/Tiles12273_12274_for_web_Prcp_Thumb.jpg)| ![Thumbnail for Swe for tiles 12273 & 12274 ](./graphics/Tiles12273_12274_for_web_Swe_Thumb.jpg)|
 
 ### No Data in 2-degree Tiles
 
@@ -26,7 +26,7 @@ No Data values buffer the rectangular extent of each of the Daymet variable netC
 
 |||
 |:-------------------------:|:-------------------------:|
-|![](./graphics/NoData_AdjacentTiles_400_a.png)|![](./graphics/NoData_AdjacentTiles_400_b.png)|
+|![Two adjacent Daymet tiles showing Day 1 of the maximum temperature variable in year 2008](./graphics/NoData_AdjacentTiles_400_a.png)|![Nodata values for the file in Tile 11205 are symbolized in black showing the actual extent of the raster file](./graphics/NoData_AdjacentTiles_400_b.png)|
 
 ## Data Availability
 
