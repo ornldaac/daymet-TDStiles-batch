@@ -3,7 +3,7 @@ This repo contains methods for automating the download of 2-degree tiles of Daym
 
 ## Methods
 1. [Bash](./Bash/README.md) 
-2. Python 
+2. [Python](./Python/README.md)
 
 ## Background
 
