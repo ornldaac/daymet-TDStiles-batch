@@ -28,6 +28,18 @@ No Data values buffer the rectangular extent of each of the Daymet variable netC
 |:-------------------------:|:-------------------------:|
 |![](./graphics/NoData_AdjacentTiles_400_a.png)|![](./graphics/NoData_AdjacentTiles_400_b.png)|
 
+## Data Availability
+
+|Region| Availability|
+|:-----------:|:-----------:|
+|Puerto Rico|1950 – present full year (tileID’s 9597, 9598, 9777, 9778)|
+|Continental North America|1980 – present full year|
+|Hawaii| 1980 – present full year|
+
+## Data Use Citation
+Thornton, M.M., R. Shrestha, Y. Wei, P.E. Thornton, S. Kao, and B.E. Wilson. 2020. Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1840
+
+
 ## More Information
 
 More information about the Daymet dataset including all access methods is found at the [Daymet Project Home Page](https://daymet.ornl.gov/).
