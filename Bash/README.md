@@ -1,8 +1,8 @@
 # Automate Downloads of Multiple Daymet Tiles 
-This repo contains the bash program for automating the download of netcdfs containing daily variable data at the tile level from the THREDDS server  with one script.
+This repo contains the bash program for automating the download of netCDFs containing daily variable data at the tile level from the THREDDS server  with one script.
 
 ## Example Usage
-The example will download netcdfs for the dayl variable between 2020 and 2021 for tiles between 11207 and 11209.
+The example will download netCDFs for the dayl variable between 2020 and 2021 for tiles between 11207 and 11209.
 1. Download `daymet_tile-nc-retrieval.sh`
 2. Run the following command:
    ```bash
