@@ -24,7 +24,6 @@
 # Updated June 08, 2022 added command line arguments. (jrw)
 # Updated June 27, 2014 to reflect new THREDDS urls.  (myt)
 #
-# Pete Eby
 # Oak Ridge National Lab
 Help()
 {
