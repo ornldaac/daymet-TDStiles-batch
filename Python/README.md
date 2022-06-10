@@ -1,6 +1,8 @@
 # Interact with Daymet Tile Grid and examples for automating downloads for multiple tiles 
 This directory contains a Jupyter Notebook program that provides an interactive map and examples on how to use the tile download automation script. 
 
+**Github does not properly display the map in the notebook.** *If you would like to view the notebook without setting it up locally please click [here to view on nbviewer.org](https://nbviewer.org/github/ornldaac/daymet-TDStiles-batch/blob/master/Python/daymet_tile-nc-retrieval.ipynb)*
+
 # Instructions
 ## Setting up the map
 1. Install requirements with `pip`
