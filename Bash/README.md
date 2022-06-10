@@ -1,5 +1,5 @@
 # Automate Downloads of Multiple Daymet Tiles 
-This repo contains the bash program for automating the download of netCDFs containing daily variable data at the tile level from the THREDDS server  with one script.
+This repo contains a sample bash script and run example for automating tile-level netCDF downloads of Daymet daily data.  Data are available by year and variable and are accessed from the ORNL DAAC THREDDS data server.
 
 ## Example Usage
 The example will download netCDFs for the dayl variable between 2020 and 2021 for tiles between 11207 and 11209.
