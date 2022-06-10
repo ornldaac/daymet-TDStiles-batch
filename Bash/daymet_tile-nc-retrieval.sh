@@ -78,7 +78,7 @@ for ((i=$START; i<=$END; i++));do
     for ((j=$FST_TILE; j<=$LST_TILE; j++));do
       for var in ${VARS[@]}; do
         if (( $CURL == 0 )); then 
-          wget --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${j}_${i}/${var}.nc -O ${j}_${i}_${var}.nc
+          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${j}_${i}/${var}.nc -O ${j}_${i}_${var}.nc
         else
           curl --limit-rate 3m -o ${j}_${i}_${var}.nc https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${j}_${i}/${var}.nc
         fi
@@ -88,7 +88,7 @@ for ((i=$START; i<=$END; i++));do
     for tile in ${TILES[@]};do
       for var in ${VARS[@]}; do
         if (( $CURL == 0 )); then 
-          wget --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${tile}_${i}/${var}.nc -O ${tile}_${i}_${var}.nc
+          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${tile}_${i}/${var}.nc -O ${tile}_${i}_${var}.nc
         else
           curl --limit-rate 3m -o ${tile}_${i}_${var}.nc https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${tile}_${i}/${var}.nc
         fi
