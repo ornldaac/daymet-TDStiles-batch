@@ -6,11 +6,11 @@ This repo contains methods for automating the download of 2-degree tiles of Daym
 2. [Python](./Python/)
 
 ## Daymet Tiles 
-The [Daymet-Tiles](./Daymet-Tiles/) directory contains files with the tile IDs and the tile extents.
+The [Daymet-Tiles](./Daymet-Tiles/) directory contains files with the tile IDs and approximate tile extents.
 Offered in these formats:
 * TXT 
 * KMZ
-* ZIP (ArcGIS)
+* Shapefile 
 
 ## Background
 
