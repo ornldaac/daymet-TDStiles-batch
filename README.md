@@ -5,6 +5,13 @@ This repo contains methods for automating the download of 2-degree tiles of Daym
 1. [Bash](./Bash/) 
 2. [Python](./Python/)
 
+## Daymet Tiles 
+The [Daymet-Tiles](./Daymet-Tiles/) directory contains files with the tile IDs and the tile extents.
+Offered in these formats:
+* TXT 
+* KMZ
+* ZIP (ArcGIS)
+
 ## Background
 
 The Daymet algorithm manages the large number of input data and large spatial extent of the study area by creating a system of 2-degree x 2-degree tiles which are processed individually through the Daymet software. These tiles are identified by a TileID which is derived within the Daymet algorithm and is consistent throughout the temporal period of the Daymet record. 
