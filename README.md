@@ -1,5 +1,5 @@
 # Automate Download of Daymet Daily 2-degree Tiles
-This repo contains methods for automating the download of 2-degree tiles of Daymet daily data hosted on the ORNL DAAC [THREDDS Data Server](https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1840/tiles/catalog.html).  Consult the [Daymet 2-degree tile image](https://daymet.ornl.gov/static/graphics/TilesV4_Daymet.png) or see the Jupyter Notebook under Python methods for guidance on tile IDs.  
+This repo contains methods for automating the download of 2-degree tiles of Daymet daily data hosted on the ORNL DAAC [THREDDS Data Server](https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/2129/tiles/catalog.html).  Consult the [Daymet 2-degree tile image](https://daymet.ornl.gov/static/graphics/TilesV4_Daymet.png) or see the Jupyter Notebook under Python methods for guidance on tile IDs.  
 
 ## Methods
 1. [Bash](./Bash/) 
