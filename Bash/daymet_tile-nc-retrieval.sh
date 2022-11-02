@@ -12,7 +12,7 @@
 # data at higher rates may be rate limited by the server. 
 #
 # Data is also available via the THREDDS web interface at:
-# https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1840/tiles/catalog.html
+# https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/2129/tiles/catalog.html
 #
 # Daymet User Guide and Citation Information is available at:
 # https://daac.ornl.gov/DAYMET/guides/Daymet_Daily_V4.html
@@ -20,7 +20,8 @@
 #
 # Citation Information is available at:
 # https://daac.ornl.gov/DAYMET/guides/Daymet_mosaics.html#Daymet_m_citation
-# 
+#
+# Updated November 1, 2022 to reflect new THREDDS url (myt)
 # Updated June 08, 2022 added command line arguments. (jrw)
 # Updated June 27, 2014 to reflect new THREDDS urls.  (myt)
 #
@@ -28,7 +29,7 @@
 Help()
 {
    # Display Help
-   echo "Script to download netCDFs from https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1840/tiles/catalog.html"
+   echo "Script to download netCDFs from https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/2129/tiles/catalog.html"
    echo
    echo "Usage: daymet_tile-nc-retrieval.sh [h|s|e|v|t|c] [start_tile] [end_tile]"
    echo "Options:"
@@ -78,7 +79,7 @@ for ((i=$START; i<=$END; i++));do
     for ((j=$FST_TILE; j<=$LST_TILE; j++));do
       for var in ${VARS[@]}; do
         if (( $CURL == 0 )); then 
-          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${j}_${i}/${var}.nc -O ${j}_${i}_${var}.nc
+          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/2129/tiles/${i}/${j}_${i}/${var}.nc -O ${j}_${i}_${var}.nc
         else
           curl --limit-rate 3m -o ${j}_${i}_${var}.nc https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${j}_${i}/${var}.nc
         fi
@@ -88,7 +89,7 @@ for ((i=$START; i<=$END; i++));do
     for tile in ${TILES[@]};do
       for var in ${VARS[@]}; do
         if (( $CURL == 0 )); then 
-          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${tile}_${i}/${var}.nc -O ${tile}_${i}_${var}.nc
+          wget -q --show-progress --progress=bar:force --limit-rate=3m https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/2129/tiles/${i}/${tile}_${i}/${var}.nc -O ${tile}_${i}_${var}.nc
         else
           curl --limit-rate 3m -o ${tile}_${i}_${var}.nc https://thredds.daac.ornl.gov/thredds/fileServer/ornldaac/1840/tiles/${i}/${tile}_${i}/${var}.nc
         fi
